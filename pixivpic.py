@@ -42,12 +42,12 @@ class PicGet():
 
     def login(self):
         """账户密码登陆"""
-        # get_user = input('请输入用户名/邮箱：')
-        # get_password = input('请输入密码：')
+        get_user = input('请输入用户名/邮箱：')
+        get_password = input('请输入密码：')
         # 组合登陆信息
         self.data = {
-                'pixiv_id': '1252515941@qq.com',
-                'password': '1111111111q',
+                'pixiv_id': get_user，
+                'password': get_password，
                 'post_key': self.postKey,
                 'captcha:': '',
                 'g_recaptcha_response': '',
