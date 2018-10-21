@@ -47,7 +47,7 @@ class Post():
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Content-Length': '317',
             'Content-Type': 'application/json; charset=UTF-8',
-            'Cookie': 'flarum_remember=GpyUbw3xbiXyw3CBG1jEgLcMTDn4D5MeXcK0Q8pf; td_cookie=3137320916; flarum_session=b4d3crv67l89qmubsmmthj2u0g',
+            'Cookie': '',
             'Host': 'www.iacgzone.me',
             'Origin': 'http://www.iacgzone.me',
             'Proxy-Connection': 'keep-alive',
